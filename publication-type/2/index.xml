@@ -5,7 +5,7 @@
     <link>https://mauriceweber.github.io/publication-type/2/</link>
       <atom:link href="https://mauriceweber.github.io/publication-type/2/index.xml" rel="self" type="application/rss+xml" />
     <description>2</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Maurice Weber</copyright><lastBuildDate>Sat, 01 Jan 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Maurice Weber</copyright><lastBuildDate>Wed, 01 Jun 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://mauriceweber.github.io/media/icon_hu1cded88c5b49d9a65ffa9cbb1ee07c1b_50500_512x512_fill_lanczos_center_3.png</url>
       <title>2</title>
@@ -13,18 +13,42 @@
     </image>
     
     <item>
-      <title>Certifying Out-of-Domain Generalization for Blackbox Functions</title>
-      <link>https://mauriceweber.github.io/publication/weber-2022-certifying/</link>
-      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
-      <guid>https://mauriceweber.github.io/publication/weber-2022-certifying/</guid>
+      <title>The AI Neuropsychologist: Automatic scoring of memory deficits with deep learning</title>
+      <link>https://mauriceweber.github.io/publication/langer-2022-ai/</link>
+      <pubDate>Wed, 01 Jun 2022 00:00:00 +0000</pubDate>
+      <guid>https://mauriceweber.github.io/publication/langer-2022-ai/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Certifying Some Distributional Fairness with Subpopulation Decomposition</title>
+      <link>https://mauriceweber.github.io/publication/kang-2022-certifying/</link>
+      <pubDate>Sun, 01 May 2022 00:00:00 +0000</pubDate>
+      <guid>https://mauriceweber.github.io/publication/kang-2022-certifying/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Toward Reliability in the NISQ Era: Robust Interval Guarantee for Quantum Measurements on Approximate States</title>
+      <link>https://mauriceweber.github.io/publication/weber-2021-toward/</link>
+      <pubDate>Fri, 01 Oct 2021 00:00:00 +0000</pubDate>
+      <guid>https://mauriceweber.github.io/publication/weber-2021-toward/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Optimal provable robustness of quantum classification via quantum hypothesis testing</title>
       <link>https://mauriceweber.github.io/publication/weber-2021-optimal/</link>
-      <pubDate>Fri, 21 May 2021 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 01 May 2021 00:00:00 +0000</pubDate>
       <guid>https://mauriceweber.github.io/publication/weber-2021-optimal/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Rab: Provable robustness against backdoor attacks</title>
+      <link>https://mauriceweber.github.io/publication/weber-2020-rab/</link>
+      <pubDate>Sun, 01 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>https://mauriceweber.github.io/publication/weber-2020-rab/</guid>
       <description></description>
     </item>
     
