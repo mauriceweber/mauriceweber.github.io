@@ -5,12 +5,44 @@
     <link>https://mauriceweber.github.io/</link>
       <atom:link href="https://mauriceweber.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Maurice Weber</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Maurice Weber</copyright><lastBuildDate>Fri, 01 Jul 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Maurice Weber</copyright><lastBuildDate>Mon, 01 May 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://mauriceweber.github.io/media/icon_hu1cded88c5b49d9a65ffa9cbb1ee07c1b_50500_512x512_fill_lanczos_center_3.png</url>
       <title>Maurice Weber</title>
       <link>https://mauriceweber.github.io/</link>
     </image>
+    
+    <item>
+      <title>RAB: Provable Robustness against Backdoor Attacks</title>
+      <link>https://mauriceweber.github.io/publication/weber-2020-rab/</link>
+      <pubDate>Mon, 01 May 2023 00:00:00 +0000</pubDate>
+      <guid>https://mauriceweber.github.io/publication/weber-2020-rab/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Certifying Some Distributional Fairness with Subpopulation Decomposition</title>
+      <link>https://mauriceweber.github.io/publication/kang-2022-certifying/</link>
+      <pubDate>Thu, 01 Dec 2022 00:00:00 +0000</pubDate>
+      <guid>https://mauriceweber.github.io/publication/kang-2022-certifying/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Predicting Properties of Quantum Systems with Conditional Generative Models</title>
+      <link>https://mauriceweber.github.io/publication/wang-2022-predicting/</link>
+      <pubDate>Tue, 01 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>https://mauriceweber.github.io/publication/wang-2022-predicting/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Toward reliability in the nisq era: Robust interval guarantee for quantum measurements on approximate states</title>
+      <link>https://mauriceweber.github.io/publication/weber-2022-toward/</link>
+      <pubDate>Thu, 01 Sep 2022 00:00:00 +0000</pubDate>
+      <guid>https://mauriceweber.github.io/publication/weber-2022-toward/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Certifying Out-of-Domain Generalization for Blackbox Functions</title>
@@ -29,14 +61,6 @@
     </item>
     
     <item>
-      <title>Certifying Some Distributional Fairness with Subpopulation Decomposition</title>
-      <link>https://mauriceweber.github.io/publication/kang-2022-certifying/</link>
-      <pubDate>Sun, 01 May 2022 00:00:00 +0000</pubDate>
-      <guid>https://mauriceweber.github.io/publication/kang-2022-certifying/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Toward Reliability in the NISQ Era: Robust Interval Guarantee for Quantum Measurements on Approximate States</title>
       <link>https://mauriceweber.github.io/talk/toward-reliability-in-the-nisq-era-robust-interval-guarantee-for-quantum-measurements-on-approximate-states/</link>
       <pubDate>Mon, 07 Mar 2022 00:00:00 +0200</pubDate>
@@ -49,14 +73,6 @@
       <link>https://mauriceweber.github.io/publication/li-2021-tss/</link>
       <pubDate>Mon, 01 Nov 2021 00:00:00 +0000</pubDate>
       <guid>https://mauriceweber.github.io/publication/li-2021-tss/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Toward Reliability in the NISQ Era: Robust Interval Guarantee for Quantum Measurements on Approximate States</title>
-      <link>https://mauriceweber.github.io/publication/weber-2021-toward/</link>
-      <pubDate>Fri, 01 Oct 2021 00:00:00 +0000</pubDate>
-      <guid>https://mauriceweber.github.io/publication/weber-2021-toward/</guid>
       <description></description>
     </item>
     
@@ -182,14 +198,6 @@
       <link>https://mauriceweber.github.io/publication/weber-2020-observer/</link>
       <pubDate>Sun, 01 Mar 2020 00:00:00 +0000</pubDate>
       <guid>https://mauriceweber.github.io/publication/weber-2020-observer/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Rab: Provable robustness against backdoor attacks</title>
-      <link>https://mauriceweber.github.io/publication/weber-2020-rab/</link>
-      <pubDate>Sun, 01 Mar 2020 00:00:00 +0000</pubDate>
-      <guid>https://mauriceweber.github.io/publication/weber-2020-rab/</guid>
       <description></description>
     </item>
     
