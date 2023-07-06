@@ -5,12 +5,20 @@
     <link>https://mauriceweber.github.io/</link>
       <atom:link href="https://mauriceweber.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Maurice Weber</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Maurice Weber</copyright><lastBuildDate>Mon, 01 May 2023 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Maurice Weber</copyright><lastBuildDate>Tue, 23 May 2023 00:00:00 +0200</lastBuildDate>
     <image>
       <url>https://mauriceweber.github.io/media/icon_hu1cded88c5b49d9a65ffa9cbb1ee07c1b_50500_512x512_fill_lanczos_center_3.png</url>
       <title>Maurice Weber</title>
       <link>https://mauriceweber.github.io/</link>
     </image>
+    
+    <item>
+      <title>RAB: Provable Robustness against Backdoor Attacks</title>
+      <link>https://mauriceweber.github.io/talk/rab-provable-robustness-against-backdoor-attacks/</link>
+      <pubDate>Tue, 23 May 2023 00:00:00 +0200</pubDate>
+      <guid>https://mauriceweber.github.io/talk/rab-provable-robustness-against-backdoor-attacks/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>RAB: Provable Robustness against Backdoor Attacks</title>
@@ -41,6 +49,14 @@
       <link>https://mauriceweber.github.io/publication/weber-2022-toward/</link>
       <pubDate>Thu, 01 Sep 2022 00:00:00 +0000</pubDate>
       <guid>https://mauriceweber.github.io/publication/weber-2022-toward/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Certifying Out-of-Domain Generalization for Blackbox Functions</title>
+      <link>https://mauriceweber.github.io/talk/certifying-out-of-domain-generalization-for-blackbox-functions/</link>
+      <pubDate>Tue, 19 Jul 2022 00:00:00 +0200</pubDate>
+      <guid>https://mauriceweber.github.io/talk/certifying-out-of-domain-generalization-for-blackbox-functions/</guid>
       <description></description>
     </item>
     

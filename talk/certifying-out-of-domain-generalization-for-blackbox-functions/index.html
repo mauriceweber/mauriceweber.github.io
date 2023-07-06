@@ -52,10 +52,10 @@
   
     
   
-  <meta name="description" content="" />
+  <meta name="description" content="Certifying the robustness of model performance under bounded data distribution drifts has recently attracted intensive interest under the umbrella of distributional robustness. However, existing techniques either make strong assumptions on the model class and loss functions that can be certified, such as smoothness expressed via Lipschitz continuity of gradients, or require to solve complex optimization problems. As a result, the wider application of these techniques is currently limited by its scalability and flexibility --- these techniques often do not scale to large-scale datasets with modern deep neural networks or cannot handle loss functions which may be non-smooth such as the 0-1 loss. In this paper, we focus on the problem of certifying distributional robustness for blackbox models and bounded loss functions, and propose a novel certification framework based on the Hellinger distance. Our certification technique scales to ImageNet-scale datasets, complex models, and a diverse set of loss functions. We then focus on one specific application enabled by such scalability and flexibility, i.e., certifying out-of-domain generalization for large neural networks and loss functions such as accuracy and AUC. We experimentally validate our certification method on a number of datasets, ranging from ImageNet, where we provide the first non-vacuous certified out-of-domain generalization, to smaller classification tasks where we are able to compare with the state-of-the-art and show that our method performs considerably better." />
 
   
-  <link rel="alternate" hreflang="en-us" href="https://mauriceweber.github.io/publication/li-2021-tss/" />
+  <link rel="alternate" hreflang="en-us" href="https://mauriceweber.github.io/talk/certifying-out-of-domain-generalization-for-blackbox-functions/" />
 
   
   
@@ -271,7 +271,7 @@
   <link rel="icon" type="image/png" href="/media/icon_hu1cded88c5b49d9a65ffa9cbb1ee07c1b_50500_32x32_fill_lanczos_center_3.png" />
   <link rel="apple-touch-icon" type="image/png" href="/media/icon_hu1cded88c5b49d9a65ffa9cbb1ee07c1b_50500_180x180_fill_lanczos_center_3.png" />
 
-  <link rel="canonical" href="https://mauriceweber.github.io/publication/li-2021-tss/" />
+  <link rel="canonical" href="https://mauriceweber.github.io/talk/certifying-out-of-domain-generalization-for-blackbox-functions/" />
 
   
   
@@ -294,29 +294,26 @@
   <meta property="twitter:card" content="summary" />
   
   <meta property="og:site_name" content="Maurice Weber" />
-  <meta property="og:url" content="https://mauriceweber.github.io/publication/li-2021-tss/" />
-  <meta property="og:title" content="TSS: Transformation-Specific Smoothing for Robustness Certification | Maurice Weber" />
-  <meta property="og:description" content="" /><meta property="og:image" content="https://mauriceweber.github.io/media/icon_hu1cded88c5b49d9a65ffa9cbb1ee07c1b_50500_512x512_fill_lanczos_center_3.png" />
+  <meta property="og:url" content="https://mauriceweber.github.io/talk/certifying-out-of-domain-generalization-for-blackbox-functions/" />
+  <meta property="og:title" content="Certifying Out-of-Domain Generalization for Blackbox Functions | Maurice Weber" />
+  <meta property="og:description" content="Certifying the robustness of model performance under bounded data distribution drifts has recently attracted intensive interest under the umbrella of distributional robustness. However, existing techniques either make strong assumptions on the model class and loss functions that can be certified, such as smoothness expressed via Lipschitz continuity of gradients, or require to solve complex optimization problems. As a result, the wider application of these techniques is currently limited by its scalability and flexibility --- these techniques often do not scale to large-scale datasets with modern deep neural networks or cannot handle loss functions which may be non-smooth such as the 0-1 loss. In this paper, we focus on the problem of certifying distributional robustness for blackbox models and bounded loss functions, and propose a novel certification framework based on the Hellinger distance. Our certification technique scales to ImageNet-scale datasets, complex models, and a diverse set of loss functions. We then focus on one specific application enabled by such scalability and flexibility, i.e., certifying out-of-domain generalization for large neural networks and loss functions such as accuracy and AUC. We experimentally validate our certification method on a number of datasets, ranging from ImageNet, where we provide the first non-vacuous certified out-of-domain generalization, to smaller classification tasks where we are able to compare with the state-of-the-art and show that our method performs considerably better." /><meta property="og:image" content="https://mauriceweber.github.io/media/icon_hu1cded88c5b49d9a65ffa9cbb1ee07c1b_50500_512x512_fill_lanczos_center_3.png" />
     <meta property="twitter:image" content="https://mauriceweber.github.io/media/icon_hu1cded88c5b49d9a65ffa9cbb1ee07c1b_50500_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="en-us" />
   
     
       <meta
         property="article:published_time"
-        content="2022-12-23T09:07:33&#43;00:00"
+        content="2022-07-19T00:00:00&#43;02:00"
       />
     
-    <meta property="article:modified_time" content="2022-12-23T10:07:34&#43;01:00">
+    <meta property="article:modified_time" content="2022-07-19T00:00:00&#43;02:00">
   
 
   
 
 
+
+  
     
-
-
-
-
-
 
 
 
@@ -324,30 +321,39 @@
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "Article",
+  "@type": "Event",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://mauriceweber.github.io/publication/li-2021-tss/"
+    "@id": "https://mauriceweber.github.io/talk/certifying-out-of-domain-generalization-for-blackbox-functions/"
   },
-  "headline": "TSS: Transformation-Specific Smoothing for Robustness Certification",
+  "name": "Certifying Out-of-Domain Generalization for Blackbox Functions",
   
-  "datePublished": "2022-12-23T09:07:33Z",
-  "dateModified": "2022-12-23T10:07:34+01:00",
-  
-  "author": {
-    "@type": "Person",
-    "name": "Linyi Li"
-  },
-  
-  "publisher": {
-    "@type": "Organization",
-    "name": "Maurice Weber",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "https://mauriceweber.github.io/media/icon_hu1cded88c5b49d9a65ffa9cbb1ee07c1b_50500_192x192_fill_lanczos_center_3.png"
+  "location": {
+    "@type": "Place",
+    "name": "Baltimore MD, USA",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "",
+      "addressLocality": "",
+      "postalCode": "",
+      "addressRegion": "",
+      "addressCountry": ""
     }
+    
   },
-  "description": ""
+  
+  
+  "startDate": "2022-07-19T00:00:00+02:00",
+  
+  "endDate": "2022-07-19T21:59:59+02:00",
+  
+  
+  "performer": {
+    "@type": "Person",
+    "name": "Maurice Weber"
+  },
+  
+  "description": "Certifying the robustness of model performance under bounded data distribution drifts has recently attracted intensive interest under the umbrella of distributional robustness. However, existing techniques either make strong assumptions on the model class and loss functions that can be certified, such as smoothness expressed via Lipschitz continuity of gradients, or require to solve complex optimization problems. As a result, the wider application of these techniques is currently limited by its scalability and flexibility --- these techniques often do not scale to large-scale datasets with modern deep neural networks or cannot handle loss functions which may be non-smooth such as the 0-1 loss. In this paper, we focus on the problem of certifying distributional robustness for blackbox models and bounded loss functions, and propose a novel certification framework based on the Hellinger distance. Our certification technique scales to ImageNet-scale datasets, complex models, and a diverse set of loss functions. We then focus on one specific application enabled by such scalability and flexibility, i.e., certifying out-of-domain generalization for large neural networks and loss functions such as accuracy and AUC. We experimentally validate our certification method on a number of datasets, ranging from ImageNet, where we provide the first non-vacuous certified out-of-domain generalization, to smaller classification tasks where we are able to compare with the state-of-the-art and show that our method performs considerably better."
 }
 </script>
 
@@ -357,17 +363,15 @@
 
   
 
-  
 
 
 
 
-
-  <title>TSS: Transformation-Specific Smoothing for Robustness Certification | Maurice Weber</title>
+  <title>Certifying Out-of-Domain Generalization for Blackbox Functions | Maurice Weber</title>
 </head>
 
 
-<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="89bc1af2686a216ac25a16b662feec6d" >
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="b83cb62aa130794aa9f7e5b1c3458b34" >
 
   
   
@@ -647,16 +651,7 @@
   </div>
 
   <div class="page-body">
-    
-
-
-
-
-
-
-
-
-<div class="pub">
+    <div class="pub">
 
   
 
@@ -677,7 +672,7 @@
   
   
 <div class="article-container pt-3">
-  <h1>TSS: Transformation-Specific Smoothing for Robustness Certification</h1>
+  <h1>Certifying Out-of-Domain Generalization for Blackbox Functions</h1>
 
   
 
@@ -689,32 +684,7 @@
 
   
   
-  
-  
-  <div>
-    
 
-  <span >
-      Linyi Li</span>, <span >
-      Maurice Weber</span>, <span >
-      Xiaojun Xu</span>, <span >
-      Luka Rimanic</span>, <span >
-      Bhavya Kailkhura</span>, <span >
-      Tao Xie</span>, <span >
-      Ce Zhang</span>, <span >
-      Bo Li</span>
-  </div>
-  
-  
-
-  
-  <span class="article-date">
-    
-    
-      
-    
-    November 2021
-  </span>
   
 
   
@@ -750,14 +720,13 @@
 
 
   
+    
+  
 
 
 
-
-
-<a href="#" class="btn btn-outline-primary btn-page-header js-cite-modal"
-        data-filename="/publication/li-2021-tss/cite.bib">
-  Cite
+<a class="btn btn-outline-primary btn-page-header" href="https://proceedings.mlr.press/v162/weber22a.html" target="_blank" rel="noopener">
+  PDF
 </a>
 
 
@@ -769,6 +738,24 @@
 
 
 
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary btn-page-header" href="https://icml.cc/media/icml-2022/Slides/17666_KpyU0JK.pdf" target="_blank" rel="noopener">
+  Slides
+</a>
+
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary btn-page-header" href="https://icml.cc/virtual/2022/spotlight/17666" target="_blank" rel="noopener">
+  Video
+</a>
 
 
 
@@ -785,17 +772,33 @@
   <div class="article-container">
 
     
-
+      <h3>Abstract</h3>
+      <p class="pub-abstract">Certifying the robustness of model performance under bounded data distribution drifts has recently attracted intensive interest under the umbrella of distributional robustness. However, existing techniques either make strong assumptions on the model class and loss functions that can be certified, such as smoothness expressed via Lipschitz continuity of gradients, or require to solve complex optimization problems. As a result, the wider application of these techniques is currently limited by its scalability and flexibility &mdash; these techniques often do not scale to large-scale datasets with modern deep neural networks or cannot handle loss functions which may be non-smooth such as the 0-1 loss. In this paper, we focus on the problem of certifying distributional robustness for blackbox models and bounded loss functions, and propose a novel certification framework based on the Hellinger distance. Our certification technique scales to ImageNet-scale datasets, complex models, and a diverse set of loss functions. We then focus on one specific application enabled by such scalability and flexibility, i.e., certifying out-of-domain generalization for large neural networks and loss functions such as accuracy and AUC. We experimentally validate our certification method on a number of datasets, ranging from ImageNet, where we provide the first non-vacuous certified out-of-domain generalization, to smaller classification tasks where we are able to compare with the state-of-the-art and show that our method performs considerably better.</p>
     
+
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Date</div>
+          <div class="col-12 col-md-9">
+            July 19, 2022 &mdash;
+          </div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+
     
     <div class="row">
       <div class="col-md-1"></div>
       <div class="col-md-10">
         <div class="row">
-          <div class="col-12 col-md-3 pub-row-heading">Type</div>
+          <div class="col-12 col-md-3 pub-row-heading">Event</div>
           <div class="col-12 col-md-9">
-            <a href="/publication/#1">
-              Conference paper
+            <a href="https://icml.cc/virtual/2022/index.html" target="_blank" rel="noopener">
+            The 39th International Conference on Machine Learning
             </a>
           </div>
         </div>
@@ -810,8 +813,12 @@
       <div class="col-md-1"></div>
       <div class="col-md-10">
         <div class="row">
-          <div class="col-12 col-md-3 pub-row-heading">Publication</div>
-          <div class="col-12 col-md-9"><em>2021 ACM SIGSAC Conference on Computer and Communications Security (CCS &lsquo;21)</em></div>
+          <div class="col-12 col-md-3 pub-row-heading">Location</div>
+          <div class="col-12 col-md-9">Baltimore MD, USA</div>
+          
+            <div class="col-md-3"></div>
+            <div class="col-12 col-md-9"></div>
+          
         </div>
       </div>
       <div class="col-md-1"></div>
@@ -821,7 +828,9 @@
 
     <div class="space-below"></div>
 
-    <div class="article-style"></div>
+    <div class="article-style">
+      
+    </div>
 
     
 
@@ -843,7 +852,7 @@
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=https://mauriceweber.github.io/publication/li-2021-tss/&amp;text=TSS:%20Transformation-Specific%20Smoothing%20for%20Robustness%20Certification" target="_blank" rel="noopener" class="share-btn-twitter" aria-label="twitter">
+        <a href="https://twitter.com/intent/tweet?url=https://mauriceweber.github.io/talk/certifying-out-of-domain-generalization-for-blackbox-functions/&amp;text=Certifying%20Out-of-Domain%20Generalization%20for%20Blackbox%20Functions" target="_blank" rel="noopener" class="share-btn-twitter" aria-label="twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -856,7 +865,7 @@
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=https://mauriceweber.github.io/publication/li-2021-tss/&amp;t=TSS:%20Transformation-Specific%20Smoothing%20for%20Robustness%20Certification" target="_blank" rel="noopener" class="share-btn-facebook" aria-label="facebook">
+        <a href="https://www.facebook.com/sharer.php?u=https://mauriceweber.github.io/talk/certifying-out-of-domain-generalization-for-blackbox-functions/&amp;t=Certifying%20Out-of-Domain%20Generalization%20for%20Blackbox%20Functions" target="_blank" rel="noopener" class="share-btn-facebook" aria-label="facebook">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
@@ -869,7 +878,7 @@
       
       
       <li>
-        <a href="mailto:?subject=TSS:%20Transformation-Specific%20Smoothing%20for%20Robustness%20Certification&amp;body=https://mauriceweber.github.io/publication/li-2021-tss/" target="_blank" rel="noopener" class="share-btn-email" aria-label="envelope">
+        <a href="mailto:?subject=Certifying%20Out-of-Domain%20Generalization%20for%20Blackbox%20Functions&amp;body=https://mauriceweber.github.io/talk/certifying-out-of-domain-generalization-for-blackbox-functions/" target="_blank" rel="noopener" class="share-btn-email" aria-label="envelope">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -882,7 +891,7 @@
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=https://mauriceweber.github.io/publication/li-2021-tss/&amp;title=TSS:%20Transformation-Specific%20Smoothing%20for%20Robustness%20Certification" target="_blank" rel="noopener" class="share-btn-linkedin" aria-label="linkedin-in">
+        <a href="https://www.linkedin.com/shareArticle?url=https://mauriceweber.github.io/talk/certifying-out-of-domain-generalization-for-blackbox-functions/&amp;title=Certifying%20Out-of-Domain%20Generalization%20for%20Blackbox%20Functions" target="_blank" rel="noopener" class="share-btn-linkedin" aria-label="linkedin-in">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -895,7 +904,7 @@
       
       
       <li>
-        <a href="whatsapp://send?text=TSS:%20Transformation-Specific%20Smoothing%20for%20Robustness%20Certification%20https://mauriceweber.github.io/publication/li-2021-tss/" target="_blank" rel="noopener" class="share-btn-whatsapp" aria-label="whatsapp">
+        <a href="whatsapp://send?text=Certifying%20Out-of-Domain%20Generalization%20for%20Blackbox%20Functions%20https://mauriceweber.github.io/talk/certifying-out-of-domain-generalization-for-blackbox-functions/" target="_blank" rel="noopener" class="share-btn-whatsapp" aria-label="whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -908,7 +917,7 @@
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=https://mauriceweber.github.io/publication/li-2021-tss/&amp;title=TSS:%20Transformation-Specific%20Smoothing%20for%20Robustness%20Certification" target="_blank" rel="noopener" class="share-btn-weibo" aria-label="weibo">
+        <a href="https://service.weibo.com/share/share.php?url=https://mauriceweber.github.io/talk/certifying-out-of-domain-generalization-for-blackbox-functions/&amp;title=Certifying%20Out-of-Domain%20Generalization%20for%20Blackbox%20Functions" target="_blank" rel="noopener" class="share-btn-weibo" aria-label="weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>
@@ -928,54 +937,100 @@
 
   
   
-    
-
-
-
-
-  
-    
-
 
 
 
   
-    
-
-
-
-
+  
   
     
-
-
-
-
   
+  
+  
+  <div class="media author-card content-widget-hr">
+    
+      
+      <a href="https://mauriceweber.github.io/"><img class="avatar mr-3 avatar-circle" src="/authors/admin/avatar_hu54aafaa967e2df34c3fbc3550ba1e449_1870928_270x270_fill_q75_lanczos_center.jpg" alt="Maurice Weber"></a>
     
 
-
-
-
+    <div class="media-body">
+      <h5 class="card-title"><a href="https://mauriceweber.github.io/">Maurice Weber</a></h5>
+      <h6 class="card-subtitle">PhD candidate in Computer Science</h6>
+      <p class="card-text">I am a fourth year PhD student at ETH Zurich, co-supervised by Ce Zhang and Martin Vechev.</p>
+      <ul class="network-icon" aria-hidden="true">
   
     
-
-
-
-
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://twitter.com/mauriceweber91" target="_blank" rel="noopener">
+        <i class="fab fa-twitter"></i>
+      </a>
+    </li>
   
     
-
-
-
-
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://scholar.google.com/citations?user=I_IOIv0AAAAJ&amp;hl=en" target="_blank" rel="noopener">
+        <i class="ai ai-google-scholar"></i>
+      </a>
+    </li>
   
     
-
-
-
-
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://github.com/mauriceweber" target="_blank" rel="noopener">
+        <i class="fab fa-github"></i>
+      </a>
+    </li>
   
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://www.linkedin.com/in/mauriceweber91/" target="_blank" rel="noopener">
+        <i class="fab fa-linkedin"></i>
+      </a>
+    </li>
+  
+</ul>
+
+    </div>
+  </div>
+
+
 
 
 
