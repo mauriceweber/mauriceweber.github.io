@@ -21,7 +21,7 @@ repository               : "academicpages/academicpages.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "IMG_1490-small.jpeg"
+  avatar           : "https://mauriceweber.github.io/images/IMG_1490-small.jpeg"
   name             : "Maurice Weber"
   pronouns         : # example: "she/her"  
   bio              : "AI Researcher @ Together AI"
