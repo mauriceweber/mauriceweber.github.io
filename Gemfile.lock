@@ -264,6 +264,7 @@ PLATFORMS
 DEPENDENCIES
   github-pages
   hawkins
+  jekyll (~> 3.9)
   jekyll-feed
   jekyll-sitemap
   webrick (~> 1.8)
