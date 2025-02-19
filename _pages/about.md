@@ -6,21 +6,23 @@ redirect_from:
   - /about.html
 ---
 
-I am an AI Researcher at Together AI, where I work on research related to pretraining data for large 
-language models. Previously, I obtained a PhD degree from [ETH Zurich](https://ethz.ch/en.html) under the supervision of [Prof. Ce Zhang](https://zhangce.github.io/). 
-During my PhD my work revolved around robustness guarantees for machine learning systems. In addition, I have
-also made central contributions to the [RedPajama Datasets](https://github.com/togethercomputer/RedPajama-Data).
+I am an AI Researcher at Together AI, where I work on modelling and data with a focus on inference efficiency. 
+Previously, I obtained a PhD degree from [ETH Zurich](https://ethz.ch/en.html) under the supervision of [Prof. Ce Zhang](https://zhangce.github.io/). 
+My PhD work revolved around robustness guarantees for machine learning systems. In addition, I have
+also made central contributions to the [RedPajama Datasets](https://github.com/togethercomputer/RedPajama-Data), which are among the largest and most popular LLM pretraining datasets.
 
-I hold a BSc and an MSc in Mathematics, both from ETH Zürich, where I focused on mathematical 
-statistics and machine learning and graduated in 2019 with a distinction.
+I hold a BSc and an MSc in Mathematics, both from ETH Zürich, where I focused on mathematical statistics and machine learning and graduated in 2019 with a distinction.
 
-Feel free to contact me by [email](mailto:maurice@together.ai), on [Twitter](https://twitter.com/mauriceweberq) or on [LinkedIn](https://www.linkedin.com/in/mauricegweber/).
+Feel free to contact me by [email](mailto:maurice@together.ai), on [X](https://x.com/mauriceweberq) or on [LinkedIn](https://www.linkedin.com/in/mauricegweber/).
 
 Publications
 ------
-* [WordScape: a Pipeline to extract multilingual, visually rich Documents with Layout Annotations from Web Crawl Data](https://arxiv.org/abs/2312.10188)<br/>
-  Maurice Weber, Carlo Siebenschuh, Rory Butler, Anton Alexandrov, Valdemar Thanner, Georgios Tsolakis, Haris Jabbar, Ian Foster, Bo Li, Rick Stevens. In Advances in Neural Information Processing Systems, Volume 36, 2024.<br/>
-  [[Paper]](https://arxiv.org/abs/2312.10188) [[Code]](https://github.com/DS3Lab/WordScape)
+* [RedPajama: an Open Dataset for Training Large Language Models](https://proceedings.neurips.cc/paper_files/paper/2024/hash/d34497330b1fd6530f7afd86d0df9f76-Abstract-Datasets_and_Benchmarks_Track.html)<br/>
+  Maurice Weber, Dan Y. Fu, Quentin Anthony, Yonatan Oren, Shane Adams, Anton Alexandrov, Xiaozhong Lyu, Huu Nguyen, Xiaozhe Yao, Virginia Adams, Ben Athiwaratkun, Rahul Chalamala, Kezhen Chen, Max Ryabinin, Tri Dao, Percy S. Liang, Christopher Ré, Irina Rish, Ce Zhang. In Advances in Neural Information Processing Systems 37 (NeurIPS 2024).<br/>
+  [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2024/file/d34497330b1fd6530f7afd86d0df9f76-Paper-Datasets_and_Benchmarks_Track.pdf) [[Code]](https://github.com/togethercomputer/RedPajama-Data) [[🤗 RedPajama V1]](https://huggingface.co/datasets/togethercomputer/RedPajama-Data-1T) [[🤗 RedPajama V2]](https://huggingface.co/datasets/togethercomputer/RedPajama-Data-V2)
+* [WordScape: a Pipeline to extract multilingual, visually rich Documents with Layout Annotations from Web Crawl Data](https://proceedings.neurips.cc/paper_files/paper/2023/hash/52c1ce1a0eaf61e8b6e3a899c1b9c61f-Abstract-Datasets_and_Benchmarks.html)<br/>
+  Maurice Weber, Carlo Siebenschuh, Rory Butler, Anton Alexandrov, Valdemar Thanner, Georgios Tsolakis, Haris Jabbar, Ian Foster, Bo Li, Rick Stevens. In Advances in Neural Information Processing Systems 36 (NeurIPS 2023).<br/>
+  [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2023/file/52c1ce1a0eaf61e8b6e3a899c1b9c61f-Paper-Datasets_and_Benchmarks.pdf) [[Code]](https://github.com/DS3Lab/WordScape)
 * [RAB: Provable Robustness against Backdoor Attacks](https://arxiv.org/abs/2003.08904)<br/>
   Maurice Weber, Xiaojun Xu, Bojan Karlaš, Ce Zhang, Bo Li. In 2023 IEEE Symposium on Security and Privacy (SP), 2023.<br/>
   [[Paper]](https://arxiv.org/abs/2003.08904) [[Code]](https://github.com/AI-secure/Robustness-Against-Backdoor-Attacks)
