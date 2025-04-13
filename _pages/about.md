@@ -8,8 +8,7 @@ redirect_from:
 
 I am an AI Researcher at Together AI, where I work on modelling and data with a focus on inference efficiency. 
 Previously, I obtained a PhD degree from [ETH Zurich](https://ethz.ch/en.html) under the supervision of [Prof. Ce Zhang](https://zhangce.github.io/). 
-My PhD work revolved around robustness guarantees for machine learning systems. In addition, I have
-also made central contributions to the [RedPajama Datasets](https://github.com/togethercomputer/RedPajama-Data), which are among the largest and most popular LLM pretraining datasets.
+My PhD work revolved around robustness guarantees for machine learning systems. In addition, I have led the development and release of the RedPajama datasets [RedPajama Datasets](https://github.com/togethercomputer/RedPajama-Data), which are among the largest and most popular LLM pretraining datasets.
 
 I hold a BSc and an MSc in Mathematics, both from ETH Zürich, where I focused on mathematical statistics and machine learning and graduated in 2019 with a distinction.
 
