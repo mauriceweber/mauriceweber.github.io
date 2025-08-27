@@ -23,13 +23,6 @@ body {
 }
 
 /* Typography */
-h1 {
-    font-size: 2.5rem;
-    color: #333;
-    font-weight: 700;
-    margin-bottom: 0.5rem;
-}
-
 h2 {
     font-size: 1.25rem;
     color: #333;
@@ -122,10 +115,6 @@ section:last-child {
         flex-direction: column;
         align-items: flex-start;
         gap: 1rem;
-    }
-    
-    h1 {
-        font-size: 2rem;
     }
     
     h2 {
